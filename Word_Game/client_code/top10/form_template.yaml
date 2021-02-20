@@ -1,0 +1,30 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: DataGrid
+  properties:
+    role: null
+    columns:
+    - {id: DTFSRD, title: Name, data_key: name}
+    - {id: PIDIZH, title: Score, data_key: score}
+    - {id: KDVKIL, title: Source Word, data_key: source_word}
+    - {id: IKEKHP, title: Words Entered, data_key: words_entered}
+    auto_header: true
+    tooltip: ''
+    border: ''
+    foreground: ''
+    rows_per_page: 10
+    visible: true
+    show_page_controls: false
+    spacing_above: small
+    spacing_below: small
+    background: ''
+  name: data_grid_1
+  layout_properties: {grid_position: 'WVPRGF,JLVTKM'}
+  components:
+  - type: RepeatingPanel
+    properties: {spacing_above: none, spacing_below: none, item_template: top10.RowTemplate1}
+    name: repeating_panel_scores
+    layout_properties: {}
+is_package: true

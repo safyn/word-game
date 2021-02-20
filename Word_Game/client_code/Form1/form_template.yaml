@@ -1,0 +1,135 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {tooltip: '', background: '#4b4848', foreground: 'theme:Primary 700',
+    border: '20', visible: true, role: null, html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: ColumnPanel
+    properties: {col_widths: '{"LSZFNW":55,"KZSOMB":15}'}
+    name: column_panel_1
+    layout_properties: {grid_position: 'GCXDJQ,LOXBOM'}
+    components:
+    - type: Button
+      properties: {role: null, align: right, tooltip: '', border: '', enabled: true,
+        foreground: '#ffffff', visible: true, text: ' TOP 10 ', font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: 'theme:Secondary 500', bold: false, underline: false, icon: ''}
+      name: top_scores_button
+      layout_properties: {grid_position: 'ZHGHLN,LSZFNW'}
+      event_bindings: {click: top_scores_button_click}
+    - type: Button
+      properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+        foreground: '#ffffff', visible: true, text: '  LOGS   ', font_size: null,
+        font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: 'theme:Secondary 500', bold: true, underline: false, icon: ''}
+      name: logs_button
+      layout_properties: {grid_position: 'ZHGHLN,KZSOMB'}
+      event_bindings: {click: logs_button_click}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'INSTRUCTIONS:
+
+        1. Enter seven 4+ letter words separated by spaces, using only the letters
+        from the source word.
+
+        2. Do not enter duplicates or reuse letter more times than it appears in the
+        source word.
+
+        3. Source word can not be used as an input word.
+
+        4. To start the game click on the "Generate Word" button in order to generate
+        source word.
+
+        5. BE CAREFUL!!! Once the word is generated the timer starts!', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'MFGVVB,YHSTHS'}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '#ffffff',
+      visible: true, text: 'Before you start please enter your name:', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: true, underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'PWAHFI,IQWOZJ'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: '#ffffff', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
+    name: name_box
+    layout_properties: {grid_position: 'PWAHFI,RNHXEM'}
+  - type: ColumnPanel
+    properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: small, spacing_above: small, col_widths: '{}',
+      spacing_below: small, background: ''}
+    name: column_panel_3
+    layout_properties: {grid_position: 'KSAUBI,MQWUCU'}
+    components:
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '#ffffff',
+        visible: true, text: 'SOURCE WORD : ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: label_2
+      layout_properties: {grid_position: 'PSZLIP,INPJFW', full_width_row: true}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '#ffffff',
+        visible: true, text: '', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: source_word_label
+      layout_properties: {grid_position: 'PSZLIP,APGGWC', full_width_row: true}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '#ffffff', visible: true, text: Generate Word, font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: 'theme:Secondary 500', bold: false, underline: false, icon: ''}
+    name: reroll_word_button
+    layout_properties: {grid_position: 'NHVZWB,RQJZXB'}
+    event_bindings: {click: reroll_word_button_click}
+  - type: ColumnPanel
+    properties: {col_widths: '{"BZVEUA":15}'}
+    name: column_panel_2
+    layout_properties: {grid_position: 'TGWSNJ,BYEAPM'}
+    components:
+    - type: Label
+      properties: {role: text, align: left, tooltip: '', border: bold, foreground: '#ffffff',
+        visible: true, text: '  Words', font_size: 18, font: '', spacing_above: medium,
+        icon_align: left, spacing_below: small, italic: false, background: '#4b4848',
+        bold: true, underline: false, icon: ''}
+      name: label_1
+      layout_properties: {grid_position: 'WIJAJK,BZVEUA', full_width_row: false}
+      event_bindings: {show: label_1_show}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: bOLD, enabled: true, foreground: '#ffffff', visible: true, text: '',
+      font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
+      italic: false, background: '', bold: false, underline: false}
+    name: words_text_box
+    layout_properties: {grid_position: 'EEXNEH,BNSQIX'}
+    event_bindings: {pressed_enter: words_text_box_pressed_enter}
+  - type: Button
+    properties: {role: null, align: right, tooltip: '', border: '', enabled: true,
+      foreground: '#ffffff', visible: true, text: PLAY!, font_size: null, font: '',
+      spacing_above: large, icon_align: left, spacing_below: small, italic: false,
+      background: '#f20d0d', bold: false, underline: false, icon: ''}
+    name: play_button
+    layout_properties: {grid_position: 'TBBXBK,YUASRL'}
+    event_bindings: {click: play_button_click}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: Game of Words, font_size: 30, font: '', spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: true, underline: false,
+    icon: ''}
+  name: label_5
+  layout_properties: {grid_position: 'JOKZGQ,FFSPHD', slot: title}

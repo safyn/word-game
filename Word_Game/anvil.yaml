@@ -1,0 +1,211 @@
+services:
+- source: /runtime/services/google.yml
+  client_config:
+    app_files:
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      webContentLink: https://drive.google.com/uc?id=1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_&export=download
+      embedLink: https://drive.google.com/file/d/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_/preview?usp=drivesdk
+      fileExtension: txt
+      copyRequiresWriterPermission: false
+      python_name: words
+      explicitlyTrashed: false
+      lastModifyingUser: {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true,
+        permissionId: '13272881914847321730', emailAddress: krisschool6@gmail.com}
+      shared: false
+      createdDate: '2021-02-10T10:30:34.145Z'
+      id: 1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_
+      owners:
+      - {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true, permissionId: '13272881914847321730',
+        emailAddress: krisschool6@gmail.com}
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 0ANSLpR-ePSwXUk9PVA, selfLink: 'https://www.googleapis.com/drive/v2/files/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_/parents/0ANSLpR-ePSwXUk9PVA',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/0ANSLpR-ePSwXUk9PVA',
+        isRoot: true}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/text/plain
+      headRevisionId: 0B9SLpR-ePSwXcitMYjlMZWZwV2NFaTYzbFp5a3d6TTZJRk5vPQ
+      selfLink: https://www.googleapis.com/drive/v2/files/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_
+      lastViewedByMeDate: '2021-02-11T13:47:12.677Z'
+      userPermission: {kind: drive#permission, etag: '"DA9JfioidYEdc1GG-iewqk6Do_c"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_/permissions/me',
+        role: owner, type: user}
+      lastModifyingUserName: kris bas
+      etag: '"MTYxMzA1MTIzMjY3Nw"'
+      kind: drive#file
+      modifiedByMeDate: '2021-02-11T13:47:12.677Z'
+      title: words.txt
+      version: '50'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '976292'
+      alternateLink: https://drive.google.com/file/d/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_/view?usp=drivesdk
+      mimeType: text/plain
+      modifiedDate: '2021-02-11T13:47:12.677Z'
+      downloadUrl: https://www.googleapis.com/drive/v2/files/1urcKviaSvILjNwSFmsZxI1Tjx-5wEOQ_?alt=media&source=downloadUrl
+      quotaBytesUsed: '1952533'
+      md5Checksum: 74c0f80e9db0c90170a464fff76f2d19
+      originalFilename: words.txt
+      thumbnailLink: https://lh3.googleusercontent.com/kch14uD_YYpj52J-72aLLe3bEbAdUNYBmHymQKnVVCzfo7R0jKHJDIP0e7O8yrJEnT2UIOvmTRiRAYs=s220
+      ownerNames: [kris bas]
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      webContentLink: https://drive.google.com/uc?id=1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f&export=download
+      embedLink: https://drive.google.com/file/d/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f/preview?usp=drivesdk
+      fileExtension: ''
+      copyRequiresWriterPermission: false
+      python_name: sourcewords
+      explicitlyTrashed: false
+      lastModifyingUser: {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true,
+        permissionId: '13272881914847321730', emailAddress: krisschool6@gmail.com}
+      shared: false
+      createdDate: '2021-02-17T12:34:27.650Z'
+      id: 1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f
+      owners:
+      - {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true, permissionId: '13272881914847321730',
+        emailAddress: krisschool6@gmail.com}
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 0ANSLpR-ePSwXUk9PVA, selfLink: 'https://www.googleapis.com/drive/v2/files/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f/parents/0ANSLpR-ePSwXUk9PVA',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/0ANSLpR-ePSwXUk9PVA',
+        isRoot: true}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/text/plain
+      headRevisionId: 0B9SLpR-ePSwXSGdOZmpiU0dQT0FzeG02T2VXMks3TnRjdDJJPQ
+      selfLink: https://www.googleapis.com/drive/v2/files/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f
+      lastViewedByMeDate: '2021-02-17T13:04:56.167Z'
+      userPermission: {kind: drive#permission, etag: '"L0iV8BFgoQ7d1buXoV-iG4O20FU"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f/permissions/me',
+        role: owner, type: user}
+      lastModifyingUserName: kris bas
+      etag: '"MTYxMzU2NzA5NjE2Nw"'
+      kind: drive#file
+      modifiedByMeDate: '2021-02-17T13:04:56.167Z'
+      title: sourcewords
+      version: '94'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '8'
+      alternateLink: https://drive.google.com/file/d/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f/view?usp=drivesdk
+      mimeType: text/plain
+      modifiedDate: '2021-02-17T13:04:56.167Z'
+      downloadUrl: https://www.googleapis.com/drive/v2/files/1jHqJC0zpQi7aUOTvwCP9_E2PqpboBu-f?alt=media&source=downloadUrl
+      quotaBytesUsed: '8'
+      md5Checksum: 8cf94fb5a6556e11d51fd5195d8700dd
+      originalFilename: sourcewords
+      thumbnailLink: https://lh3.googleusercontent.com/xnvGXPiv45vdFTFc9Adm3spBsiFfIxQLV5o36_tVNqj-3yRXTU0hGiA7BANUcM1ukST1GMTfMfzjk6Y=s220
+      ownerNames: [kris bas]
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      webContentLink: https://drive.google.com/uc?id=1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K&export=download
+      embedLink: https://drive.google.com/file/d/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K/preview?usp=drivesdk
+      fileExtension: ''
+      copyRequiresWriterPermission: false
+      python_name: gamewords
+      explicitlyTrashed: false
+      lastModifyingUser: {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true,
+        permissionId: '13272881914847321730', emailAddress: krisschool6@gmail.com}
+      shared: false
+      createdDate: '2021-02-17T12:35:45.911Z'
+      id: 1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K
+      owners:
+      - {kind: drive#user, displayName: kris bas, isAuthenticatedUser: true, permissionId: '13272881914847321730',
+        emailAddress: krisschool6@gmail.com}
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 0ANSLpR-ePSwXUk9PVA, selfLink: 'https://www.googleapis.com/drive/v2/files/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K/parents/0ANSLpR-ePSwXUk9PVA',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/0ANSLpR-ePSwXUk9PVA',
+        isRoot: true}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/text/plain
+      headRevisionId: 0B9SLpR-ePSwXaWwwY083bXBvSkhPZHY5WGZ2R1V4WjFCRHljPQ
+      selfLink: https://www.googleapis.com/drive/v2/files/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K
+      lastViewedByMeDate: '2021-02-17T12:35:45.911Z'
+      userPermission: {kind: drive#permission, etag: '"B0OJtgT-GzC8n0VgjZnxUW6nFHQ"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K/permissions/me',
+        role: owner, type: user}
+      lastModifyingUserName: kris bas
+      etag: '"MTYxMzU2NTM0NTkxMQ"'
+      kind: drive#file
+      modifiedByMeDate: '2021-02-17T12:35:45.911Z'
+      title: gamewords
+      version: '2'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '0'
+      alternateLink: https://drive.google.com/file/d/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K/view?usp=drivesdk
+      mimeType: text/plain
+      modifiedDate: '2021-02-17T12:35:45.911Z'
+      downloadUrl: https://www.googleapis.com/drive/v2/files/1wmjCq-EsASjOdM_tPVrYvTK0f2pwFs1K?alt=media&source=downloadUrl
+      quotaBytesUsed: '0'
+      md5Checksum: d41d8cd98f00b204e9800998ecf8427e
+      originalFilename: ''
+      thumbnailLink: https://lh3.googleusercontent.com/dvZuwIfo6UR33VRAv4gqy3PuGqlMMc7pzvhvcWjgVmzHmXK95Gvk7xDO-UVr5fEVf7rWKqukiAhbsHA=s220
+      ownerNames: [kris bas]
+  server_config: {delegation_refresh_token: 1//03bgGWwpAEsQzCgYIARAAGAMSNwF-L9IrtmhLx4BUBTHFlzbauSDAwRXO4Adoscp3QuLVEBYIR61F1_ec2lCIAn0Bric5Od9zqpY}
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: false}
+package_name: Word_Game
+allow_embedding: false
+name: Word Game
+runtime_options: {version: 2, client_version: '3', server_version: python3-full}
+metadata: {}
+startup_form: Form1
+db_schema:
+- name: scores
+  id: 106539
+  python_name: scores
+  columns:
+    GEikufAs0Ik=:
+      name: source_word
+      type: string
+      admin_ui: {order: 2, width: 200}
+    J96d8hU+Xxc=:
+      name: score
+      type: number
+      admin_ui: {order: 1, width: 200}
+    TgNJKHiKLIY=:
+      name: name
+      type: string
+      admin_ui: {order: 1, width: 200}
+    na06CJM+k54=:
+      name: words_entered
+      type: string
+      admin_ui: {order: 3, width: 200}
+  access: {python_name: scores, app_id: 5TY6TBUG3QVYOMIV, server: full, client: none,
+    table_mapping_name: null, table_mapping_id: null, table_id: 106539}
+- name: logs
+  id: 106831
+  python_name: logs
+  columns:
+    Al9A_ojpxfE=:
+      name: result
+      type: string
+      admin_ui: {order: 0, width: 200}
+    Z5LY7hWP8oc=:
+      name: user_agent
+      type: string
+      admin_ui: {order: 4, width: 200}
+    uxIdfPbppN0=:
+      name: source_input
+      type: string
+      admin_ui: {order: 1, width: 200}
+    wM9MmXhw0Dw=:
+      name: ip
+      type: string
+      admin_ui: {order: 3, width: 200}
+    zY4MwLIwrao=:
+      name: timestamp
+      type: string
+      admin_ui: {order: 2, width: 200}
+  access: {python_name: logs, app_id: 5TY6TBUG3QVYOMIV, server: full, client: none,
+    table_mapping_name: null, table_mapping_id: null, table_id: 106831}
+renamed: true
